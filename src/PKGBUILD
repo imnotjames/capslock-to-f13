@@ -1,0 +1,15 @@
+pkgname=capslock-to-f13
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Remaps the Capslock key to F13 using udev"
+arch=('any')
+url="http://github.com/imnotjames/capslock-to-f13/"
+license=('GPL')
+depends=('udev')
+source=("90-$pkgname.hwdb" "$pkgname.install")
+md5sums=('dddbb86bc2550a0979031b86b6dcaac2' '795c28dcbfdef482c15f192adf0116f5')
+install="$pkgname.install"
+
+build() {
+	install -D "$srcdir/90-$pkgname.hwdb" "$pkgdir/etc/udev/hwdb.d/90-$pkgname.hwdb"
+}
