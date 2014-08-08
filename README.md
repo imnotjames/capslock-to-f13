@@ -33,3 +33,10 @@ WITH THE FOLLOWING, TO STOP IT FROM BINDING AS XF86TOOLS.
 ```
 keycode 191 = F13 F13 F13
 ```
+
+AND THEN BECAUSE GNOME DEVELOPERS ARE EVEN MORE INSANE I HAD TO
+DISABLE THEIR KEYBOARD SETTINGS PLUGIN.
+
+```
+$ gsettings set org.gnome.settings-daemon.plugins.keyboard active false 
+```
