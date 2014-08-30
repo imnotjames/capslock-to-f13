@@ -1,3 +1,4 @@
 keyboard:usb:v*p*
 keyboard:dmi:bvn*:bvr*:bd*:svn*:pn*:pvr*
  KEYBOARD_KEY_3a=f13
+ KEYBOARD_KEY_0x70039=f13
