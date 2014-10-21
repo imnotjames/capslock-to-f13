@@ -1,13 +1,13 @@
-pkgname=capslock-to-f13
-pkgver=0.0.2
+pkgname=capslock-to-f15
+pkgver=0.0.3
 pkgrel=1
-pkgdesc="Remaps the Capslock key to F13 using udev"
+pkgdesc="Remaps the Capslock key to F15 using udev"
 arch=('any')
-url="http://github.com/imnotjames/capslock-to-f13/"
+url="http://github.com/imnotjames/capslock-to-f15/"
 license=('GPL')
 depends=('udev')
 source=("90-$pkgname.hwdb" "$pkgname.install")
-md5sums=('b2f346ad9fac0507be7211df9fb07f2b' '795c28dcbfdef482c15f192adf0116f5')
+md5sums=('898756d15438807d1336dd6f31a0b13a' '795c28dcbfdef482c15f192adf0116f5')
 install="$pkgname.install"
 
 build() {
