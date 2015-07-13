@@ -1,4 +1,14 @@
+# Map the capslock scancode to the F15 button instead
+# of CAPSLOCK.
+
+# Old rules ( systemd / udev < 220 )
 keyboard:usb:v*p*
 keyboard:dmi:bvn*:bvr*:bd*:svn*:pn*:pvr*
+ KEYBOARD_KEY_3a=f15
+ KEYBOARD_KEY_0x70039=f15
+
+# New rules ( systemd / udev >= 220 )
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svn*:pn*:pvr*
+evdev:input:b0003v*p*
  KEYBOARD_KEY_3a=f15
  KEYBOARD_KEY_0x70039=f15
