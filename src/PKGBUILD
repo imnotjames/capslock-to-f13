@@ -1,5 +1,5 @@
 pkgname=capslock-to-f15
-pkgver=0.0.3
+pkgver=0.0.4
 pkgrel=1
 pkgdesc="Remaps the Capslock key to F15 using udev"
 arch=('any')
