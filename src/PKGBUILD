@@ -11,6 +11,6 @@ md5sums=('623ebe4610b256dc950f963ee972c900' '795c28dcbfdef482c15f192adf0116f5')
 
 install="$pkgname.install"
 
-build() {
+package() {
 	install -D "$srcdir/90-$pkgname.hwdb" "$pkgdir/etc/udev/hwdb.d/90-$pkgname.hwdb"
 }
