@@ -7,7 +7,8 @@ url="http://github.com/imnotjames/capslock-to-f15/"
 license=('GPL')
 depends=('udev')
 source=("90-$pkgname.hwdb" "$pkgname.install")
-md5sums=('898756d15438807d1336dd6f31a0b13a' '795c28dcbfdef482c15f192adf0116f5')
+md5sums=('623ebe4610b256dc950f963ee972c900' '795c28dcbfdef482c15f192adf0116f5')
+
 install="$pkgname.install"
 
 build() {
