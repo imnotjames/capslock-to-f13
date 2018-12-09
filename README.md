@@ -9,11 +9,10 @@ ANOTHER CONTROL KEY.
 ### INSTALLATION
 
 IF YOU ARE USING ARCH LINUX JUST USE THE `PKGBUILD` FILE WITH
-`makepkg` AND INSTALL THE RESULTING PACKAGE.
+`makepkg` AND TELL IT TO INSTALL THE RESULTING PACKAGE.
 
 ```
-makepkg
-pacman -U capslock-to-f15-0.0.1-1-any.pkg.tar.xz
+makepkg -i
 systemctl restart udev
 ```
 
